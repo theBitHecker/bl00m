@@ -1,0 +1,66 @@
+[gd_scene format=3 uid="uid://cn32f7sa8h8y0"]
+
+[ext_resource type="Texture2D" uid="uid://dcqjnnj6indao" path="res://sprites/plants/heartbloom/heartbloom.png" id="1_0rg58"]
+[ext_resource type="Texture2D" uid="uid://clqmkvfndadqn" path="res://sprites/plants/heartbloom/heartbloom-low.png" id="2_eygur"]
+[ext_resource type="Texture2D" uid="uid://d2t3wjpk2ucfv" path="res://sprites/plants/heartbloom/heartbloom-full.png" id="3_f5aqa"]
+[ext_resource type="Texture2D" uid="uid://d3l51q1ower5y" path="res://sprites/plants/heartbloom/heartbloom-grow-1.png" id="4_pj58b"]
+[ext_resource type="Texture2D" uid="uid://bq3xtdnevny2t" path="res://sprites/plants/heartbloom/heartbloom-grow-2.png" id="5_r7pht"]
+[ext_resource type="Texture2D" uid="uid://cwusd8f2fjglp" path="res://sprites/plants/heartbloom/heartbloom-grow-3.png" id="6_8xphw"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_si4yh"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_0rg58")
+}],
+"loop": true,
+"name": &"base",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_eygur")
+}],
+"loop": true,
+"name": &"decayed",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_f5aqa")
+}],
+"loop": true,
+"name": &"full",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_pj58b")
+}],
+"loop": true,
+"name": &"grow-1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_r7pht")
+}],
+"loop": true,
+"name": &"grow-2",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_8xphw")
+}],
+"loop": true,
+"name": &"grow-3",
+"speed": 5.0
+}]
+
+[node name="Heartbloom" type="Node2D" unique_id=484671591]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=883724171]
+position = Vector2(240, 240)
+sprite_frames = SubResource("SpriteFrames_si4yh")
+animation = &"grow-3"
