@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://cn32f7sa8h8y0"]
+[gd_scene format=3 uid="uid://cn32f7sa8h8y0"]
 
 [ext_resource type="Texture2D" uid="uid://di4a0u46teivo" path="res://sprites/plants/heartbloom/heartbloom.png" id="1_0rg58"]
 [ext_resource type="Script" uid="uid://nr3v12hkm0ge" path="res://scripts/plants/heartbloom.gd" id="1_eygur"]
@@ -71,32 +71,32 @@ size = Vector2(215, 100)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_pj58b"]
 size = Vector2(290, 290)
 
-[node name="Heartbloom" type="Node2D"]
+[node name="Heartbloom" type="Node2D" unique_id=2096872301]
 script = ExtResource("1_eygur")
 
-[node name="Sprite" type="AnimatedSprite2D" parent="."]
+[node name="Sprite" type="AnimatedSprite2D" parent="." unique_id=673687178]
 position = Vector2(240, 240)
 sprite_frames = SubResource("SpriteFrames_si4yh")
 animation = &"low"
 
-[node name="Hitbox" type="StaticBody2D" parent="." groups=["Plant"]]
+[node name="Hitbox" type="StaticBody2D" parent="." unique_id=1352685155 groups=["Plant"]]
 position = Vector2(2.5, 0)
 collision_layer = 2
 collision_mask = 0
 
-[node name="Grow1" type="CollisionShape2D" parent="Hitbox"]
+[node name="Grow1" type="CollisionShape2D" parent="Hitbox" unique_id=1411030935]
 position = Vector2(240, 237.5)
 shape = SubResource("RectangleShape2D_0rg58")
 
-[node name="Grow2" type="CollisionShape2D" parent="Hitbox"]
+[node name="Grow2" type="CollisionShape2D" parent="Hitbox" unique_id=1586673017]
 position = Vector2(240, 237.5)
 shape = SubResource("RectangleShape2D_eygur")
 
-[node name="Grow3" type="CollisionShape2D" parent="Hitbox"]
+[node name="Grow3" type="CollisionShape2D" parent="Hitbox" unique_id=1473905351]
 position = Vector2(240, 240)
 shape = SubResource("RectangleShape2D_f5aqa")
 
-[node name="Mature" type="CollisionShape2D" parent="Hitbox"]
+[node name="Mature" type="CollisionShape2D" parent="Hitbox" unique_id=917688024]
 position = Vector2(235, 261)
 rotation = 0.7853982
 shape = SubResource("RectangleShape2D_pj58b")
