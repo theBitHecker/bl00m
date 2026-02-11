@@ -1,17 +1,37 @@
-# Godot 4+ specific ignores
-.godot/
-.nomedia
-
 # Godot-specific ignores
-.import/
-export.cfg
-export_credentials.cfg
-*.tmp
+.godot/                # Godot 4 metadata and import cache
+.import/               # Godot 3 import cache
+export.cfg             # Export configurations (can contain sensitive info)
+export_presets.cfg     # Export presets
 
-# Imported translations (automatically generated from CSV files)
-*.translation
+# Imported assets
+*.import               # Optional: Ignore if you want to re-import on every machine
+                       # (Usually, it's better to keep these in version control)
 
-# Mono-specific ignores
+# Mono/C# specifics
 .mono/
-data_*/
-mono_crash.*.json
+bin/
+obj/
+dotnet/
+Solution.sln
+*.csproj
+
+# Built-in binaries (if you export within the project folder)
+*.pck
+*.exe
+*.zip
+*.flash
+*.app
+*.ipa
+*.apk
+*.aar
+
+# Editor and OS-specific files
+.pfx
+.directory
+*.collaboration
+.DS_Store
+Thumbs.db
+
+# User-specific overrides
+override.cfg
