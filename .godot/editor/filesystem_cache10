@@ -2,12 +2,12 @@
 ::res://::1770761512
 ::res://resources/::1770761512
 ::res://resources/plants/::1770761512
-::res://resources/plants/resource_templates/::1770761512
-plant.gd::GDScript::6838031078036086760::1770761512::0::1::::Plant<>Resource<><>0<>0<><>::
+::res://resources/plants/resource_templates/::1770763816
+plant.gd::GDScript::6838031078036086760::1770763816::0::1::::Plant<>Resource<><>0<>0<><>::
 ::res://scenes/::1770672595
 main.tscn::PackedScene::9052498250284363455::1770693697::0::1::::<><><>0<>0<><>::
-::res://scenes/plants/::1770761512
-heartbloom.tscn::PackedScene::5744748908166613141::1770761512::0::1::::<><><>0<>0<><>::uid://di4a0u46teivo::::res://sprites/plants/heartbloom/heartbloom.png<>uid://nr3v12hkm0ge::::res://scripts/plants/heartbloom.gd<>uid://n7dqb5rwunmj::::res://sprites/plants/heartbloom/heartbloom-low.png<>uid://b2ekj4eq0h8sn::::res://sprites/plants/heartbloom/heartbloom-full.png<>uid://cn5dyvi2wpxq::::res://sprites/plants/heartbloom/heartbloom-grow-1.png<>uid://brinugnnj7oi4::::res://sprites/plants/heartbloom/heartbloom-grow-2.png<>uid://sb87b108b4kc::::res://sprites/plants/heartbloom/heartbloom-grow-3.png
+::res://scenes/plants/::1770763821
+heartbloom.tscn::PackedScene::5744748908166613141::1770763821::0::1::::<><><>0<>0<><>::uid://di4a0u46teivo::::res://sprites/plants/heartbloom/heartbloom.png<>uid://nr3v12hkm0ge::::res://scripts/plants/heartbloom.gd<>uid://n7dqb5rwunmj::::res://sprites/plants/heartbloom/heartbloom-low.png<>uid://b2ekj4eq0h8sn::::res://sprites/plants/heartbloom/heartbloom-full.png<>uid://cn5dyvi2wpxq::::res://sprites/plants/heartbloom/heartbloom-grow-1.png<>uid://brinugnnj7oi4::::res://sprites/plants/heartbloom/heartbloom-grow-2.png<>uid://sb87b108b4kc::::res://sprites/plants/heartbloom/heartbloom-grow-3.png
 ::res://scripts/::1770727708
 ::res://scripts/plants/::1770761512
 heartbloom.gd::GDScript::949288374231636052::1770761512::0::1::::<>Node2D<><>0<>0<><>::
