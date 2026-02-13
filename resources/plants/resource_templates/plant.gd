@@ -7,7 +7,9 @@ class_name PlantData
 @export var growth_stages_sec: Array = [-66.7, -33.3]
 @export var low_health_sec: float = 20
 @export var growth_loss_sec_per_damage = 1
+@export var regen_block_sec: float = 30
 @export var water_flow_usage: float = 10.0
+
 
 @export_group("Cost")
 @export var water_cost: int = 10
