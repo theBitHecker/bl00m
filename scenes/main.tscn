@@ -1,3 +1,5 @@
 [gd_scene format=3 uid="uid://d18dlacuq76f0"]
 
 [node name="Main" type="Node2D" unique_id=358381918]
+
+[node name="ResourceManager" type="Node" parent="." unique_id=1543714376]

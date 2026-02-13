@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://di4a0u46teivo" path="res://sprites/plants/heartbloom/heartbloom.png" id="1_0rg58"]
 [ext_resource type="Script" uid="uid://nr3v12hkm0ge" path="res://scripts/plants/heartbloom.gd" id="1_eygur"]
 [ext_resource type="Texture2D" uid="uid://n7dqb5rwunmj" path="res://sprites/plants/heartbloom/heartbloom-low.png" id="2_eygur"]
+[ext_resource type="Resource" uid="uid://ceemk2ebfq6e4" path="res://resources/plants/resources/heartbloom_data.tres" id="2_f5aqa"]
 [ext_resource type="Texture2D" uid="uid://b2ekj4eq0h8sn" path="res://sprites/plants/heartbloom/heartbloom-full.png" id="3_f5aqa"]
 [ext_resource type="Texture2D" uid="uid://cn5dyvi2wpxq" path="res://sprites/plants/heartbloom/heartbloom-grow-1.png" id="4_pj58b"]
 [ext_resource type="Texture2D" uid="uid://brinugnnj7oi4" path="res://sprites/plants/heartbloom/heartbloom-grow-2.png" id="5_r7pht"]
@@ -73,6 +74,7 @@ size = Vector2(290, 290)
 
 [node name="Heartbloom" type="Node2D" unique_id=2096872301]
 script = ExtResource("1_eygur")
+plant_data = ExtResource("2_f5aqa")
 
 [node name="Sprite" type="AnimatedSprite2D" parent="." unique_id=673687178]
 position = Vector2(240, 240)

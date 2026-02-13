@@ -1,0 +1,6 @@
+res://scenes/plants/heartbloom.tscn
+res://resources/plants/resource_templates/heartbloom_data.gd
+res://resources/plants/resource_templates/plant.gd
+res://resources/plants/resources/heartbloom_data.tres
+res://scripts/plants/heartbloom.gd
+res://scenes/main.tscn

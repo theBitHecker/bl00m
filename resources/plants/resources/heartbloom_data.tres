@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="HeartbloomData" format=3 uid="uid://ceemk2ebfq6e4"]
+
+[ext_resource type="Script" uid="uid://7moqmba127ea" path="res://resources/plants/resource_templates/heartbloom_data.gd" id="1_70pnp"]
+
+[resource]
+script = ExtResource("1_70pnp")
+starting_water = 50
+dehydration_immune = true
+water_flow_generation = 30.0
+max_growth_sec = 200.0
+growth_loss_sec_per_damage = -1
+water_flow_usage = 5.0
+water_cost = 999999
+metadata/_custom_type_script = "uid://7moqmba127ea"
