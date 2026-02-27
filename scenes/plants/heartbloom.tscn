@@ -77,12 +77,12 @@ script = ExtResource("1_eygur")
 plant_data = ExtResource("2_f5aqa")
 
 [node name="Sprite" type="AnimatedSprite2D" parent="." unique_id=673687178]
-position = Vector2(240, 240)
+position = Vector2(180, 180)
 sprite_frames = SubResource("SpriteFrames_si4yh")
-animation = &"low"
+animation = &"base"
 
 [node name="Hitbox" type="StaticBody2D" parent="." unique_id=1352685155 groups=["Plant"]]
-position = Vector2(2.5, 0)
+position = Vector2(-57.5, -60)
 collision_layer = 2
 collision_mask = 0
 
