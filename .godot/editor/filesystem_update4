@@ -1,3 +1,6 @@
+res://scenes/camera.gd
 res://scenes/main.tscn
 res://scenes/plants/heartbloom.tscn
-res://scenes/camera.gd
+res://scenes/plants/veinroot.tscn
+res://scripts/plants/veinroot.gd
+res://scenes/ui.tscn

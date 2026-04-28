@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://cn32f7sa8h8y0"]
+[gd_scene load_steps=14 format=3 uid="uid://cn32f7sa8h8y0"]
 
 [ext_resource type="Texture2D" uid="uid://di4a0u46teivo" path="res://sprites/plants/heartbloom/heartbloom.png" id="1_0rg58"]
 [ext_resource type="Script" uid="uid://nr3v12hkm0ge" path="res://scripts/plants/heartbloom.gd" id="1_eygur"]
@@ -67,38 +67,37 @@ size = Vector2(55, 25)
 size = Vector2(85, 45)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_f5aqa"]
-size = Vector2(215, 100)
+size = Vector2(225, 125)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_pj58b"]
-size = Vector2(290, 290)
+size = Vector2(225, 225)
 
-[node name="Heartbloom" type="Node2D" unique_id=2096872301]
+[node name="Heartbloom" type="Node2D"]
 script = ExtResource("1_eygur")
 plant_data = ExtResource("2_f5aqa")
 
-[node name="Sprite" type="AnimatedSprite2D" parent="." unique_id=673687178]
+[node name="Sprite" type="AnimatedSprite2D" parent="."]
 position = Vector2(180, 180)
 sprite_frames = SubResource("SpriteFrames_si4yh")
 animation = &"base"
 
-[node name="Hitbox" type="StaticBody2D" parent="." unique_id=1352685155 groups=["Plant"]]
+[node name="Hitbox" type="StaticBody2D" parent="." groups=["Plant"]]
 position = Vector2(-57.5, -60)
 collision_layer = 2
 collision_mask = 0
 
-[node name="Grow1" type="CollisionShape2D" parent="Hitbox" unique_id=1411030935]
+[node name="Grow1" type="CollisionShape2D" parent="Hitbox"]
 position = Vector2(240, 237.5)
 shape = SubResource("RectangleShape2D_0rg58")
 
-[node name="Grow2" type="CollisionShape2D" parent="Hitbox" unique_id=1586673017]
+[node name="Grow2" type="CollisionShape2D" parent="Hitbox"]
 position = Vector2(240, 237.5)
 shape = SubResource("RectangleShape2D_eygur")
 
-[node name="Grow3" type="CollisionShape2D" parent="Hitbox" unique_id=1473905351]
+[node name="Grow3" type="CollisionShape2D" parent="Hitbox"]
 position = Vector2(240, 240)
 shape = SubResource("RectangleShape2D_f5aqa")
 
-[node name="Mature" type="CollisionShape2D" parent="Hitbox" unique_id=917688024]
-position = Vector2(235, 261)
-rotation = 0.7853982
+[node name="Mature" type="CollisionShape2D" parent="Hitbox"]
+position = Vector2(235.5, 241)
 shape = SubResource("RectangleShape2D_pj58b")
